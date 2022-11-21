@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HitTheTarget_Stickman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="graphics1">
+				<Option output="bin/Debug/graphics1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab1">
+				<Option output="bin/Debug/lab1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab2">
+				<Option output="bin/Debug/lab2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab2a">
+				<Option output="bin/Debug/lab2a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab3">
+				<Option output="bin/Debug/lab3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab3a">
+				<Option output="bin/Debug/lab3a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab4">
+				<Option output="bin/Debug/lab4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab5">
+				<Option output="bin/Debug/lab5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab5a">
+				<Option output="bin/Debug/lab5a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab5b">
+				<Option output="bin/Debug/lab5b" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab6">
+				<Option output="bin/Debug/lab6" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab7">
+				<Option output="bin/Debug/lab7" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab7a">
+				<Option output="bin/Debug/lab7a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab8">
+				<Option output="bin/Debug/lab8" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab8a">
+				<Option output="bin/Debug/lab8a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="lab9">
+				<Option output="bin/Debug/lab9" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="appendixa">
+				<Option output="bin/Debug/appendixa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="appendixa-a">
+				<Option output="bin/Debug/appendixa-a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="appendixb">
+				<Option output="bin/Debug/appendixb" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="appendixb-a">
+				<Option output="bin/Debug/appendixb-a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="appendixb-b">
+				<Option output="bin/Debug/appendixb-b" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="events">
+				<Option output="bin/Debug/events" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="mouse">
+				<Option output="bin/Debug/mouse" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="mouse1">
+				<Option output="bin/Debug/mouse1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="graphics1--">
+				<Option output="bin/Debug/graphics1--" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="graphics2">
+				<Option output="bin/Debug/graphics2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="graphics3">
+				<Option output="bin/Debug/graphics3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+			<Add directory="data" />
+		</Compiler>
+		<Linker>
+			<Add library="lib/liballegro_monolith.dll.a" />
+			<Add library="lib/liballegro_monolith-debug.dll.a" />
+		</Linker>
+		<Unit filename="include/graphics_lib.h" />
+		<Unit filename="include/graphics_lib_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Session_1/lab1.c">
+			<Option compilerVar="CC" />
+			<Option target="lab1" />
+		</Unit>
+		<Unit filename="src/Session_2/lab2.c">
+			<Option compilerVar="CC" />
+			<Option target="lab2" />
+		</Unit>
+		<Unit filename="src/Session_2/lab2a.c">
+			<Option compilerVar="CC" />
+			<Option target="lab2a" />
+		</Unit>
+		<Unit filename="src/Session_3/lab3.c">
+			<Option compilerVar="CC" />
+			<Option target="lab3" />
+		</Unit>
+		<Unit filename="src/Session_3/lab3a.c">
+			<Option compilerVar="CC" />
+			<Option target="lab3a" />
+		</Unit>
+		<Unit filename="src/Session_4/lab4.c">
+			<Option compilerVar="CC" />
+			<Option target="lab4" />
+		</Unit>
+		<Unit filename="src/Session_5/lab5.c">
+			<Option compilerVar="CC" />
+			<Option target="lab5" />
+		</Unit>
+		<Unit filename="src/Session_5/lab5a.c">
+			<Option compilerVar="CC" />
+			<Option target="lab5a" />
+		</Unit>
+		<Unit filename="src/Session_5/lab5b.c">
+			<Option compilerVar="CC" />
+			<Option target="lab5b" />
+		</Unit>
+		<Unit filename="src/Session_6/lab6.c">
+			<Option compilerVar="CC" />
+			<Option target="lab6" />
+		</Unit>
+		<Unit filename="src/Session_7/lab7.c">
+			<Option compilerVar="CC" />
+			<Option target="lab7" />
+		</Unit>
+		<Unit filename="src/Session_7/lab7a.c">
+			<Option compilerVar="CC" />
+			<Option target="lab7a" />
+		</Unit>
+		<Unit filename="src/Session_8/lab8.c">
+			<Option compilerVar="CC" />
+			<Option target="lab8" />
+		</Unit>
+		<Unit filename="src/Session_8/lab8a.c">
+			<Option compilerVar="CC" />
+			<Option target="lab8a" />
+		</Unit>
+		<Unit filename="src/Session_9/lab9.c">
+			<Option compilerVar="CC" />
+			<Option target="lab9" />
+		</Unit>
+		<Unit filename="src/additional/appendixa-a.c">
+			<Option compilerVar="CC" />
+			<Option target="appendixa-a" />
+		</Unit>
+		<Unit filename="src/additional/appendixa.c">
+			<Option compilerVar="CC" />
+			<Option target="appendixa" />
+		</Unit>
+		<Unit filename="src/additional/appendixb-a.c">
+			<Option compilerVar="CC" />
+			<Option target="appendixb-a" />
+		</Unit>
+		<Unit filename="src/additional/appendixb-b.c">
+			<Option compilerVar="CC" />
+			<Option target="appendixb-b" />
+		</Unit>
+		<Unit filename="src/additional/appendixb.c">
+			<Option compilerVar="CC" />
+			<Option target="appendixb" />
+		</Unit>
+		<Unit filename="src/additional/events.c">
+			<Option compilerVar="CC" />
+			<Option target="events" />
+		</Unit>
+		<Unit filename="src/additional/graphics1--.c">
+			<Option compilerVar="CC" />
+			<Option target="graphics1--" />
+		</Unit>
+		<Unit filename="src/additional/graphics2.c">
+			<Option compilerVar="CC" />
+			<Option target="graphics2" />
+		</Unit>
+		<Unit filename="src/additional/graphics3.c">
+			<Option compilerVar="CC" />
+			<Option target="graphics3" />
+		</Unit>
+		<Unit filename="src/additional/mouse.c">
+			<Option compilerVar="CC" />
+			<Option target="mouse" />
+		</Unit>
+		<Unit filename="src/additional/mouse1.c">
+			<Option compilerVar="CC" />
+			<Option target="mouse1" />
+		</Unit>
+		<Unit filename="src/graphics1/Game.c">
+			<Option compilerVar="CC" />
+			<Option target="graphics1" />
+		</Unit>
+		<Unit filename="src/graphics1/Game.h">
+			<Option target="graphics1" />
+		</Unit>
+		<Unit filename="src/graphics1/graphics1.c">
+			<Option compilerVar="CC" />
+			<Option target="graphics1" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
