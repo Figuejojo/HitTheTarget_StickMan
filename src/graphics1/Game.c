@@ -56,7 +56,7 @@ void Game_Init(void)
             update_display();
 
 
-        }while('\r' != getCMD(&Player_1));
+        }while('\r' != getCMD(&Player_1.move_x));
 
         double FPPos = proyectile(&Player_1);
 
@@ -174,7 +174,7 @@ void movePlayer(Man_t * Player)
 	line(Player->IPos_x + Player->move_x  ,Player->IPos_y + ARMLEN   ,Player->IPos_x + BODYLEG + Player->move_x  ,Player->IPos_y + BODYLEN ,2);  //Arm Right
 }
 
-int getCMD(Man_t * Player)
+int getCMD(int * move_x)
 {
     int cmd = getch();
     cmd = (cmd == 0) ? (getch()):(cmd);
@@ -183,15 +183,15 @@ int getCMD(Man_t * Player)
     {
         case 77: //Right
             //TODO: Change this for the score left extreme.
-            if(Player->move_x < WIN_WIDTH - BODYLEN)
+            if(*move_x < WIN_WIDTH - BODYLEN)
             {
-                Player->move_x++;
+                (*move_x)++;
             }
             break;
         case 75: //Left
-            if(Player->move_x > 0 - (DEF_POS_X - BODYLEG))
+            if(*move_x > 0 - (DEF_POS_X - BODYLEG))
             {
-                Player->move_x--;
+                (*move_x)--;
             }
             break;
         default:

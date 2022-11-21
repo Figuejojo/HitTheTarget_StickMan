@@ -109,14 +109,13 @@ void initRound(Man_t * Player);
 
 /** @brief Modify the x position of player if the left and right arrow keys or return a
  *          '\r' character if ENTER key was pressed.
- *         @TODO: Only move_x from Man_t is needed.
  *         @TODO: Apply the keyboard functions in graphics lib.
  *
- *  @param [Man_t Ptr] Player struct.
+ *  @param [int Ptr] From Player struct we pass only the move_x.
  *
  *  @return Return '\r' if the ENTER key was pressed.
  */
-int getCMD(Man_t * Player);
+int getCMD(int * move_x);
 
 /** @brief Draw the floor and the score points of the game.
  *          The score can be moved by using the RandomPos global variable.
@@ -152,6 +151,11 @@ double proyectile(Man_t * Player);
  */
 void getScore(int * score, double EndProy_pos);
 
+/** @brief Displays the Attempts and score in the game.
+ *
+ *  @param [char Ptr] Current Attempr number.
+ *  @param [int Ptr]  Current Score.
+ */
 void set_Score_Attempts(char * nAtt, int * score);
 
 #endif
