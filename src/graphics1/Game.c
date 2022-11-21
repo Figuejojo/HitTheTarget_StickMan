@@ -49,7 +49,7 @@ void Game_Init(void)
 
             DrawFloor_DrawScore();
 
-            set_Score_Attempts(&nATT,&Player_1.score);
+            set_Score_Attempts(nATT,Player_1.score);
 
             movePlayer(&Player_1);
 
@@ -68,16 +68,16 @@ void Game_Init(void)
 
 }
 
-void set_Score_Attempts(char * nAtt, int * score)
+void set_Score_Attempts(char nAtt,int score)
 {
-    char * string[20];
+    char string[20];
     setcolor(WHITE);
 
-    sprintf(string,"Attempt %d of %d",*nAtt+1,ATTEMPTS);
-    outtextxy(5,25,string);
+    sprintf(string,"Attempt %d of %d",nAtt+1,ATTEMPTS);
+    outtextxy(5,25,&string[0]);
 
-    sprintf(string, "Score: %d",*score);
-    outtextxy(150,25,string);
+    sprintf(string, "Score: %d",score);
+    outtextxy(150,25,&string[0]);
 }
 
 void getScore(int * score, double EndProy_pos)

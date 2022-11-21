@@ -152,10 +152,11 @@ double proyectile(Man_t * Player);
 void getScore(int * score, double EndProy_pos);
 
 /** @brief Displays the Attempts and score in the game.
+ *          TODO: Not modifiers so, no ptr needed.
  *
  *  @param [char Ptr] Current Attempr number.
  *  @param [int Ptr]  Current Score.
  */
-void set_Score_Attempts(char * nAtt, int * score);
+void set_Score_Attempts(char nAtt, int score);
 
 #endif
