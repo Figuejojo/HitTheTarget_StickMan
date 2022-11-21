@@ -5,9 +5,9 @@
  *  @author Jose Figueroa (TODO: Change for EXMAN ID)
  *  @TODO:
  *      @bug  - No known bugs.
- *      @TODO - Create the Tx Score
- *      @TODO - In getCMD
- *      @TODO - In get_angle_vel
+ *      @TODO - In getCMD.
+ *      @TODO - In get_angle_vel.
+ *      @TODO - Create an end window with final score.
  *      @TODO - Multiplayer - Init Round
  *      @TODO -
  */
@@ -150,6 +150,8 @@ double proyectile(Man_t * Player);
  *  @param [int Ptr] Player score.
  *  @param [double] End Projectile position in x axis.
  */
-void  getScore(int * score, double EndProy_pos);
+void getScore(int * score, double EndProy_pos);
+
+void set_Score_Attempts(char * nAtt, int * score);
 
 #endif

@@ -30,6 +30,7 @@ void Game_Init(void)
     InitPlayer(&Player_1);
 
     initwindow(WIN_WIDTH, WIN_LEN);
+    initfont();
 
     for(char nATT = 0; nATT < ATTEMPTS; nATT++)
     {
@@ -48,6 +49,8 @@ void Game_Init(void)
 
             DrawFloor_DrawScore();
 
+            set_Score_Attempts(&nATT,&Player_1.score);
+
             movePlayer(&Player_1);
 
             update_display();
@@ -63,6 +66,18 @@ void Game_Init(void)
         printf("\nHIT ANY KEY TO CONTINUE");
     }
 
+}
+
+void set_Score_Attempts(char * nAtt, int * score)
+{
+    char * string[20];
+    setcolor(WHITE);
+
+    sprintf(string,"Attempt %d of %d",*nAtt+1,ATTEMPTS);
+    outtextxy(5,25,string);
+
+    sprintf(string, "Score: %d",*score);
+    outtextxy(150,25,string);
 }
 
 void getScore(int * score, double EndProy_pos)
@@ -145,6 +160,10 @@ void DrawFloor_DrawScore()
 
 void movePlayer(Man_t * Player)
 {
+    setcolor(WHITE);
+    //sprintf();
+    outtextxy(5,5,"Click the terminal and use the <- and -> to move, and when ready hit ENTER ");
+
     setcolor(Player->color);
     filled_circle(Player->IPos_x + Player->move_x,  Player->IPos_y, 15, Player->color);
 
