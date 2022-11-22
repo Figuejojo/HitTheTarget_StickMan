@@ -530,6 +530,18 @@ int event_key_right_arrow(void)
         return 0;
 }
 
+int event_key_enter(void)
+{
+    if(event.keyboard.keycode == ALLEGRO_KEY_ENTER)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+
 /* detect whether a letter key is pressed using allegro
    can take any letter. It does not distinguish between case */
 int event_key(char letter)

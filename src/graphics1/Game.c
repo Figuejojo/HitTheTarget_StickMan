@@ -31,16 +31,13 @@ void Game_Init(void)
 
     initwindow(WIN_WIDTH, WIN_LEN);
     initfont();
+    initkeyboard();
+    create_event_queue();
+    reg_keyboard_events();
 
     for(char nATT = 0; nATT < ATTEMPTS; nATT++)
     {
-        printf("\nAttempt %d",nATT+1);
-
         initRound(&Player_1);
-
-        printf("\nClick the terminal and use the <- and -> to move");
-        printf("\nWhen in position, hit ENTER");
-        getch();
 
         do
         {
@@ -56,15 +53,16 @@ void Game_Init(void)
             update_display();
 
 
-        }while('\r' != getCMD(&Player_1.move_x));
+        }while(1 != getCMD(&Player_1.move_x));
 
         double FPPos = proyectile(&Player_1);
 
         getScore(&Player_1.score, FPPos);
 
-        printf("\nCurrent Score %d",Player_1.score);
-        printf("\nHIT ANY KEY TO CONTINUE");
+        getch(); // MouseClick on the Gamescreen
     }
+    closekeyboard();
+
 
 }
 
@@ -74,10 +72,10 @@ void set_Score_Attempts(char nAtt,int score)
     setcolor(WHITE);
 
     sprintf(string,"Attempt %d of %d",nAtt+1,ATTEMPTS);
-    outtextxy(5,25,&string[0]);
+    outtextxy(5,25,string);
 
     sprintf(string, "Score: %d",score);
-    outtextxy(150,25,&string[0]);
+    outtextxy(150,25,string);
 }
 
 void getScore(int * score, double EndProy_pos)
@@ -96,6 +94,7 @@ void getScore(int * score, double EndProy_pos)
     {
         *score += Target[0];
     }
+
 }
 
 double proyectile(Man_t * Player)
@@ -174,30 +173,26 @@ void movePlayer(Man_t * Player)
 	line(Player->IPos_x + Player->move_x  ,Player->IPos_y + ARMLEN   ,Player->IPos_x + BODYLEG + Player->move_x  ,Player->IPos_y + BODYLEN ,2);  //Arm Right
 }
 
+
 int getCMD(int * move_x)
 {
-    int cmd = getch();
-    cmd = (cmd == 0) ? (getch()):(cmd);
-
-    switch(cmd)
+    wait_for_event();
+    if(event_key_left_arrow() == 1)
     {
-        case 77: //Right
-            //TODO: Change this for the score left extreme.
-            if(*move_x < WIN_WIDTH - BODYLEN)
-            {
-                (*move_x)++;
-            }
-            break;
-        case 75: //Left
-            if(*move_x > 0 - (DEF_POS_X - BODYLEG))
-            {
-                (*move_x)--;
-            }
-            break;
-        default:
-            break;
+        if(*move_x > 0 - (DEF_POS_X - BODYLEG))
+        {
+            (*move_x)--;
+        }
     }
-    return cmd;
+
+    if(event_key_right_arrow() == 1)
+    {
+        if(*move_x < WIN_WIDTH - BODYLEN)
+        {
+            (*move_x)++;
+        }
+    }
+    return event_key_enter();
 }
 
 void initRound(Man_t * Player)

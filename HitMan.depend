@@ -2256,10 +2256,10 @@
 1669028774 source:m:\cprogramming\lab2 - copy\game-hittarget - copy\src\graphics1\graphics1.c
 	"Game.h"
 
-1669041432 source:m:\cprogramming\lab2 - copy\game-hittarget\include\graphics_lib_functions.c
+1669077860 source:m:\cprogramming\lab2 - copy\game-hittarget\include\graphics_lib_functions.c
 	"graphics_lib.h"
 
-1669041432 m:\cprogramming\lab2 - copy\game-hittarget\include\graphics_lib.h
+1669077925 m:\cprogramming\lab2 - copy\game-hittarget\include\graphics_lib.h
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -2559,10 +2559,10 @@
 1669041431 m:\cprogramming\lab2 - copy\game-hittarget\include\allegro5\allegro_font.h
 	"allegro5/allegro.h"
 
-1669072751 source:m:\cprogramming\lab2 - copy\game-hittarget\src\graphics1\game.c
+1669077967 source:m:\cprogramming\lab2 - copy\game-hittarget\src\graphics1\game.c
 	"Game.h"
 
-1669074815 m:\cprogramming\lab2 - copy\game-hittarget\src\graphics1\game.h
+1669075195 m:\cprogramming\lab2 - copy\game-hittarget\src\graphics1\game.h
 	"graphics_lib.h"
 	<stdio.h>
 	<conio.h>

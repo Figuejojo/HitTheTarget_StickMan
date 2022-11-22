@@ -127,6 +127,8 @@ void hide_mouse_cursor(void);
 
 int check_if_event(void);
 
+int event_key_enter(void);
+
 void wait_for_event(void);
 
 int event_close_display(void);
